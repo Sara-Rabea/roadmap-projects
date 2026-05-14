@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    background-image: linear-gradient(to right, blue,rgb(67, 193, 239));
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+image{
+    background-color: blue;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+a:hover{
+    color: darkblue;
+    text-shadow: 1px gainsboro;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right, blue,rgb(67, 193, 239));
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    bottom: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 25%;
+    left: 25%;
+    color: aliceblue;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, blue,rgb(67, 193, 239));
+    padding: 0px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    display: flex;
+}
+input:hover{
+    border: 2px solid rgb(0, 7, 139);
+    border-radius: 5px;
+    box-shadow: 2px blue;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+}
+button:hover{
+    background-image: linear-gradient(to left, rgba(198, 192, 192, 0.749), rgba(133, 133, 139, 0.042));
+}
