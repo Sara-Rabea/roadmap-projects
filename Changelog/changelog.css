@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 200px;
+    border-left: 1px solid black;
+    padding: 25px;
+}
+p{
+    color: grey;
+}
+div p::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -6px;
+    border-radius: 50%;
+    background-color: black;
+}
+div p::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -6px;
+    border-radius: 50%;
+    background-color: black;
+}
+p::before:hover{
+    content: '';
+    position: absolute;
+    background-color: blue;
+}
+div p::after{
+    content: attr(data-person);
+    position: absolute;
+    color: grey;
+    left: -150px;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+
